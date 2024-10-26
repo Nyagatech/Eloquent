@@ -64,7 +64,7 @@ class CarController extends Controller
     public function edit(string $id)
     {
         //
-        
+        dd($id);
     }
 
     /**
@@ -81,5 +81,7 @@ class CarController extends Controller
     public function destroy(string $id)
     {
         //
+        
+        dd($id);
     }
 }
