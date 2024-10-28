@@ -37,6 +37,7 @@
                 <input type="number" class="form-control" id="mileage" name="mileage" value="{{ $car->mileage }}" required>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
+            <a href="/cars" class="btn btn-secondary">Cancel</a>
         </form>
     </div>
 </div>

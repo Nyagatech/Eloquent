@@ -23,6 +23,7 @@
             <label for="mileage">Car Mileage</label>
             <input type="text" name="mileage" id="mileage" class="form-control" required>
             <button type="submit" class="btn btn-primary">Submit</button>
+            <a href="{{ route('cars.index') }}" class="btn btn-secondary">Cancel</a>
         </div>
     </form>
 </div>
